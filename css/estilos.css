@@ -222,6 +222,26 @@ body {
   color: #ffffff;
 }
 
+.dato-whatsapp {
+  margin-top: 0.4rem;
+}
+
+.enlace-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #34d399;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: var(--transicion);
+}
+
+.enlace-whatsapp:hover {
+  color: #6ee7b7;
+  text-decoration: underline;
+}
+
 .acciones-inicio {
   display: flex;
   flex-wrap: wrap;
